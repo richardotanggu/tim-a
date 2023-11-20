@@ -15,7 +15,7 @@ class PegawaiTableSeeder extends Seeder
         Pegawai::create([
             'nama_pegawai' => 'rijal',
             'jabatan' => 'Dokter',
-            'jenis_kelamin' => '2',
+            'jenis_kelamin' => 'L',
             'tempat_lahir' => 'Pemalang',
             'tanggal_lahir' => '2006-10-14',
             'telepon' => '8786',
@@ -25,7 +25,7 @@ class PegawaiTableSeeder extends Seeder
         Pegawai::create([
             'nama_pegawai' => 'rzal',
             'jabatan' => 'admin',
-            'jenis_kelamin' => '2',
+            'jenis_kelamin' => 'L',
             'tempat_lahir' => 'Bogor',
             'tanggal_lahir' => '2005-10-03',
             'telepon' => '8089',
