@@ -13,7 +13,7 @@ class PegawaiTableSeeder extends Seeder
     public function run()
     {
         Pegawai::create([
-            'nama_pegawai' => 'rijal',
+            'nama_pegawai' => 'Saep',
             'jabatan' => 'Dokter',
             'jenis_kelamin' => 'L',
             'tempat_lahir' => 'Pemalang',
@@ -21,6 +21,7 @@ class PegawaiTableSeeder extends Seeder
             'telepon' => '8786',
             'alamat' => 'Cileungsi',
         ]);
+<<<<<<< HEAD
 
         Pegawai::create([
             'nama_pegawai' => 'rzal',
@@ -31,5 +32,7 @@ class PegawaiTableSeeder extends Seeder
             'telepon' => '8089',
             'alamat' => 'Cicadas',
         ]);
+=======
+>>>>>>> 7772d8902c48b2bf1a95e0ef07aa32bf2d2a8685
     }
 }
